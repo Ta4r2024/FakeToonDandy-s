@@ -1,0 +1,126 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+
+local Window = Library.CreateLib("FakeToon", "RJTheme3")
+
+local Tab = Window:NewTab("FakeToon")
+
+local Section = Tab:NewSection("TrolChartes")
+
+Section:NewButton("Dandy's", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Template.Visible = true
+end)
+
+Section:NewButton("Connie", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Connie.Visible = true
+end)
+
+Section:NewButton("Looey", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Looey.Visible = true
+end)
+
+Section:NewButton("Glisten", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Glisten.Visible = true
+end)
+
+Section:NewButton("Gigi", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Gigi.Visible = true
+end)
+
+Section:NewButton("Finn", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Finn.Visible = true
+end)
+
+Section:NewButton("Cosmo", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Cosmo.Visible = true
+end)
+
+Section:NewButton("Sprout", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Sprout.Visible = true
+end)
+
+Section:NewButton("Flutter", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Flutter.Visible = true
+end)
+
+Section:NewButton("Shelly", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Shelly.Visible = true
+end)
+
+Section:NewButton("Teagan", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Teagan.Visible = true
+end)
+
+Section:NewButton("Tisha", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Tisha.Visible = true
+end)
+
+Section:NewButton("Shrimpo", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Shrimpo.Visible = true
+end)
+
+Section:NewButton("Scraps", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Scraps.Visible = true
+end)
+
+Section:NewButton("Toodles", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Toodles.Visible = true
+end)
+
+Section:NewButton("Astro", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Astro.Visible = true
+end)
+
+Section:NewButton("RazzleDazzle", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.RazzleDazzle.Visible = true
+end)
+
+Section:NewButton("Vee", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Vee.Visible = true
+end)
+
+Section:NewButton("Brightney", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Brightney.Visible = true
+end)
+
+Section:NewButton("Goob", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Goob.Visible = true
+end)
+
+Section:NewButton("Rodger", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Rodger.Visible = true
+end)
+
+Section:NewButton("Boxten", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Boxten.Visible = true
+end)
+
+Section:NewButton("Pebble", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Pebble.Visible = true
+end)
+
+Section:NewButton("Poppy", "ButtonInfo", function()
+    game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Poppy.Visible = true
+end)
+
+local Tab = Window:NewTab("Misc")
+
+local Section = Tab:NewSection("Misc")
+
+Section:NewButton("Script Dandy's", "ButtonInfo", function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))
+   end)
+end)
+
+Section:NewButton("Trol-Mobile Shiftlock", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://github.com/ltseverydayyou/uuuuuuu/blob/main/shiftlock?raw=true"))()
+end)
+
+local Tab = Window:NewTab("Creator")
+
+local Section = Tab:NewSection("Creator")
+
+Section:NewButton("t.me/PipiKaka_228", "ButtonInfo", function()
+    print("https://t.me/PipiKaka_228")
+    open("https://t.me/PipiKaka_228")
+end)
