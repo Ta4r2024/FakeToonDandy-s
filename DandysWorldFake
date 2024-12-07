@@ -107,9 +107,7 @@ local Tab = Window:NewTab("Misc")
 local Section = Tab:NewSection("Misc")
 
 Section:NewButton("Script Dandy's", "ButtonInfo", function()
-    pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))
-   end)
 end)
 
 Section:NewButton("Trol-Mobile Shiftlock", "ButtonInfo", function()
