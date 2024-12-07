@@ -1,3 +1,17 @@
+--[[
+ _       _       _                               
+( )  _  ( )     (_ )                             
+| | ( ) | |  __  | |   ___   _    ___ ___    __  
+| | | | | |/ __ \| | / ___)/ _ \/  _   _  \/ __ \
+| (_/ \_) |  ___/| |( (___( (_) ) ( ) ( ) |  ___/
+ \__/\___/ \____)___)\____)\___/(_) (_) (_)\____)
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██ ▄▄▀█ ▄▄▀█ ▄▄█ ▄▄▀█▄ ▄█▀▄▄▀█ ▄▄▀█▀███▄▄ ▄▄█ ▄▄▀██ ▄ ██ ▄▄▀
+██ ████ ▀▀▄█ ▄▄█ ▀▀ ██ ██ ██ █ ▀▀▄███████ ███ ▀▀ █ ▀▀ ▀█ ▀▀▄
+██ ▀▀▄█▄█▄▄█▄▄▄█▄██▄██▄███▄▄██▄█▄▄█▄█████ ███▄██▄████ ██▄█▄▄
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+--]]
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
 local Window = Library.CreateLib("FakeToon", "RJTheme3")
@@ -6,99 +20,99 @@ local Tab = Window:NewTab("FakeToon")
 
 local Section = Tab:NewSection("TrolChartes")
 
-Section:NewButton("Dandy's", "ButtonInfo", function()
+Section:NewButton("Dandy", "Fake Dandy", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Template.Visible = true
 end)
 
-Section:NewButton("Connie", "ButtonInfo", function()
+Section:NewButton("Connie", "Fake Connie", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Connie.Visible = true
 end)
 
-Section:NewButton("Looey", "ButtonInfo", function()
+Section:NewButton("Looey", "Fake Looey", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Looey.Visible = true
 end)
 
-Section:NewButton("Glisten", "ButtonInfo", function()
+Section:NewButton("Glisten", "Fake Glisten", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Glisten.Visible = true
 end)
 
-Section:NewButton("Gigi", "ButtonInfo", function()
+Section:NewButton("Gigi", "Fake Gigi", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Gigi.Visible = true
 end)
 
-Section:NewButton("Finn", "ButtonInfo", function()
+Section:NewButton("Finn", "Fake Finn", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Finn.Visible = true
 end)
 
-Section:NewButton("Cosmo", "ButtonInfo", function()
+Section:NewButton("Cosmo", "Fake Cosmo", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Cosmo.Visible = true
 end)
 
-Section:NewButton("Sprout", "ButtonInfo", function()
+Section:NewButton("Sprout", "Fake Sprout", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Sprout.Visible = true
 end)
 
-Section:NewButton("Flutter", "ButtonInfo", function()
+Section:NewButton("Flutter", "Fake Flutter", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Flutter.Visible = true
 end)
 
-Section:NewButton("Shelly", "ButtonInfo", function()
+Section:NewButton("Shelly", "Fake Shelly", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Shelly.Visible = true
 end)
 
-Section:NewButton("Teagan", "ButtonInfo", function()
+Section:NewButton("Teagan", "Fake Teagan", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Teagan.Visible = true
 end)
 
-Section:NewButton("Tisha", "ButtonInfo", function()
+Section:NewButton("Tisha", "Fake Tisha", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Tisha.Visible = true
 end)
 
-Section:NewButton("Shrimpo", "ButtonInfo", function()
+Section:NewButton("Shrimpo", "Fake Shrimpo", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Shrimpo.Visible = true
 end)
 
-Section:NewButton("Scraps", "ButtonInfo", function()
+Section:NewButton("Scraps", "Fake Scraps", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Scraps.Visible = true
 end)
 
-Section:NewButton("Toodles", "ButtonInfo", function()
+Section:NewButton("Toodles", "Fake Toodles", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Toodles.Visible = true
 end)
 
-Section:NewButton("Astro", "ButtonInfo", function()
+Section:NewButton("Astro", "Fake Astro", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Astro.Visible = true
 end)
 
-Section:NewButton("RazzleDazzle", "ButtonInfo", function()
+Section:NewButton("RazzleDazzle", "Fake RazzleDazzle", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.RazzleDazzle.Visible = true
 end)
 
-Section:NewButton("Vee", "ButtonInfo", function()
+Section:NewButton("Vee", "Fake Vee", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Vee.Visible = true
 end)
 
-Section:NewButton("Brightney", "ButtonInfo", function()
+Section:NewButton("Brightney", "Fake Brightney", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Brightney.Visible = true
 end)
 
-Section:NewButton("Goob", "ButtonInfo", function()
+Section:NewButton("Goob", "Fake Goob", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Goob.Visible = true
 end)
 
-Section:NewButton("Rodger", "ButtonInfo", function()
+Section:NewButton("Rodger", "Fake Rodger", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Rodger.Visible = true
 end)
 
-Section:NewButton("Boxten", "ButtonInfo", function()
+Section:NewButton("Boxten", "Fake Boxten", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Boxten.Visible = true
 end)
 
-Section:NewButton("Pebble", "ButtonInfo", function()
+Section:NewButton("Pebble", "Fake Pebble", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Pebble.Visible = true
 end)
 
-Section:NewButton("Poppy", "ButtonInfo", function()
+Section:NewButton("Poppy", "Fake Poppy", function()
     game.Players.LocalPlayer.PlayerGui.MainGui.CharacterFrame.ScrollingFrame.Poppy.Visible = true
 end)
 
@@ -107,9 +121,7 @@ local Tab = Window:NewTab("Misc")
 local Section = Tab:NewSection("Misc")
 
 Section:NewButton("Script Dandy's", "ButtonInfo", function()
-    pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))
-    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))("t.me/arceusxscripts")
 end)
 
 Section:NewButton("Trol-Mobile Shiftlock", "ButtonInfo", function()
