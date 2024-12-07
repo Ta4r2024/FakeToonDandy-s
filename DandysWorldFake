@@ -120,7 +120,7 @@ local Tab = Window:NewTab("Creator")
 
 local Section = Tab:NewSection("Creator")
 
-Section:NewButton("t.me/PipiKaka_228", "ButtonInfo", function()
-    print("https://t.me/PipiKaka_228")
-    open("https://t.me/PipiKaka_228")
+Section:NewButton("t.me/ScriptDandysWorld", "ButtonInfo", function()
+    print("https://t.me/ScriptDandysWorld")
+    open.browser = ("https://t.me/ScriptDandysWorld")
 end)
